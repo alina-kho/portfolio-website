@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  padding: 0 2vw;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 4vw);
+
+  img {
+    height: 100%;
+  }
+
+  .links-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .nav-link {
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 10px;
+
+      &:hover {
+        color: white;
+        text-shadow: 2px 0.5px #00c2cb;
+      }
+    }
+  }
+}
