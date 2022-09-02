@@ -7,4 +7,10 @@ html,
 body {
   margin: 0;
   width: 100vw;
+  color: var(--font-color);
+}
+
+:root {
+  --main-color: #00c2cb;
+  --font-color: #303030;
 }
