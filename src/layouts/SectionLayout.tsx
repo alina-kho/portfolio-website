@@ -8,9 +8,9 @@ interface SectionLayoutProps {
 
 export const SectionLayout: FC<SectionLayoutProps> = ({ title, children }) => {
   return (
-    <div className="section">
+    <section>
       <h2>{title}</h2>
-      {children}
-    </div>
+      <div className="content">{children}</div>
+    </section>
   );
 };

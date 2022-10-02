@@ -1,6 +1,17 @@
 .flex {
   display: flex;
+  align-items: center;
   .bio {
     width: 40vw;
+    a {
+      color: var(--main-color);
+    }
+  }
+  .photo {
+    width: 40vw;
+    margin-left: 10vw;
+    img {
+      border-radius: 50%;
+    }
   }
 }

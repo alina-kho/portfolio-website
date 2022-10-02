@@ -1,5 +1,6 @@
 import { SectionLayout } from "../../layouts/SectionLayout";
 import "./about.scss";
+import avatar from "./avatar.svg";
 
 export const About = () => {
   return (
@@ -27,8 +28,25 @@ export const About = () => {
             PeekEmbrace I/S, where my primary stack was React.js with
             TypeScript.
           </p>
+          <p>
+            My key priority is to make a solution user-friendly and aesthetic as
+            well as the source code - structured and maintainable.
+          </p>
+          <p>
+            Before my career switch, I got a BA in Political science, where I
+            specialized in political analysis and management. During my studies
+            and some time after, I was working in a small NGO where I managed
+            educational programs for youth. Besides, I had to deal with
+            marketing, inclucing SoMe and SEO.{" "}
+          </p>
+          <p>
+            When I am not coding, I like to travel, cook food, and learn foreign
+            languages.{" "}
+          </p>
         </div>
-        <div className="photo"></div>
+        <div className="photo">
+          <img src={avatar} width="300px" alt="cartoonified avatar" />
+        </div>
       </div>
     </SectionLayout>
   );
